@@ -1,0 +1,81 @@
+
+body {
+   background-color:beige;
+  
+}
+.content{
+display: flex;
+text-align: center;
+}
+.navbar{
+  flex-direction: inherit
+}
+.container {
+    margin: 0;
+  }
+
+.jumbotron1 {
+    background-image: url('ivy.jpg');
+    background-size: cover;
+    color: #fff;
+    vertical-align: center;
+    
+  }
+  .lead-text{
+    text-shadow: 0 0 2px black;
+    font-weight: 400;
+
+  }
+
+  .jumbotron2 {
+    background-color: ivory;
+    background-size: cover;
+}
+  .market{
+    background-image: url('market.jpg');
+  }
+  .mkt {
+    background-image: url('mkt.jpg');
+  }
+
+  .text {
+    flex: 1;
+    vertical-align: middle;
+  }
+  .market {
+    flex: 2;
+  }
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+    text-shadow: 0 0 2px black;
+
+  }
+  .images img{
+    padding: 10px
+  }
+  img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 2.5rem;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .search-container {
+    margin: 15px
+  }
+  
+
+
+ .search-container button:hover {
+  background: #ccc;
+}
+
+  /* .jumbotron {
+      opacity: 90%
+  } */
